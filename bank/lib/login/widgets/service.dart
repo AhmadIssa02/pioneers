@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_app/login/screens/soon_screen.dart';
+
+import '../screens/soon_screen.dart';
 
 class Service extends StatelessWidget {
   final String name;

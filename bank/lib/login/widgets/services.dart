@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_app/login/widgets/service.dart';
-import 'package:new_app/login/widgets/services_data.dart';
+import 'service.dart';
+import 'services_data.dart';
 
 class Services extends StatelessWidget {
   const Services({super.key});
