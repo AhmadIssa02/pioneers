@@ -65,12 +65,15 @@ class MainAppBar extends StatelessWidget {
                 color: Colors.white,
               ),
               Positioned(
-                  right: 0,
-                  child: Icon(
-                    Icons.notifications_active,
-                    size: 12,
-                    color: Colors.red[800],
-                  ))
+                right: 0,
+                top: 2,
+                child: Container(
+                  width: 8,
+                  height: 8,
+                  decoration:
+                      BoxDecoration(shape: BoxShape.circle, color: Colors.red),
+                ),
+              ),
             ],
           )
         ],

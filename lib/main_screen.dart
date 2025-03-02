@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:new_app/login/widgets/account_view.dart';
-import 'package:new_app/login/widgets/capital_mart_view.dart';
+import 'package:new_app/login/widgets/views/account_view.dart';
+import 'package:new_app/login/widgets/views/capital_mart_view.dart';
 import 'package:new_app/login/widgets/main_app_bar.dart';
-import 'package:new_app/login/widgets/support_view.dart';
+import 'package:new_app/login/widgets/views/support_view.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
